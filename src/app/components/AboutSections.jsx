@@ -16,6 +16,9 @@ const TAB_DATA = [
         <li>Recoil</li>
         <li>Next.js</li>
         <li>Node.js</li>
+        <li>Photoshop</li>
+        <li>Illustrator</li>
+        <li>Figma</li>
       </ul>
     ),
   },
@@ -36,6 +39,9 @@ const TAB_DATA = [
       <ul className='list-disc pl-2'>
         <li>국민대학교 정치외교학과 학사</li>
         <li>구름톤 트레이닝 풀스택 개발자과정 수료</li>
+        <li>GTQ 포토샵 1급</li>
+        <li>GTQi 일러스트 1급</li>
+        <li>MOS master</li>
       </ul>
     ),
   },
