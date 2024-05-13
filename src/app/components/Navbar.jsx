@@ -5,6 +5,7 @@ import NavLink from './NavLink';
 import { HiBars3 } from 'react-icons/hi2';
 import { IoCloseCircleOutline } from 'react-icons/io5';
 import MenuOverlay from './MenuOverlay';
+import Image from 'next/image';
 
 const navLinks = [
   { title: 'About', path: '#about' },
@@ -20,9 +21,9 @@ const Navbar = () => {
       <div className='flex flex-wrap items-center justify-between mx-auto px-4 py-2'>
         <Link
           href={'/'}
-          className='text-2xl md:text-5xl text-white font-semibold'
+          className='text-lg md:text-5xl text-white font-semibold'
         >
-          Logo
+          Eunsol&apos;s portfolio
         </Link>
         <div className='mobile-menu block md:hidden'>
           {!navbarOpen ? (
