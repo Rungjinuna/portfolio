@@ -23,7 +23,7 @@ const Navbar = () => {
           href={'/'}
           className='text-lg md:text-5xl text-white font-semibold'
         >
-          Eunsol&apos;s portfolio
+          Portfolio
         </Link>
         <div className='mobile-menu block md:hidden'>
           {!navbarOpen ? (
