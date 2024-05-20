@@ -20,7 +20,14 @@ const HeroSection = () => {
             </span>
             <br></br>
             <TypeAnimation
-              sequence={['Eunsol ', 1000, 'Web Developer', 1000]}
+              sequence={[
+                'Eunsol ',
+                1000,
+                'Web Developer',
+                1000,
+                'UI & UX Designer',
+                1000,
+              ]}
               wrapper='span'
               speed={30}
               style={{ fontSize: '1em', display: 'inline-block' }}
@@ -28,13 +35,13 @@ const HeroSection = () => {
             />
           </h1>
           <p className='text-[#adb7be] text-base sm:text-lg mb-6 lg:text-xl'>
-            안녕하세요, 저는 신입 프론트엔드 개발자 김은솔입니다. 사용자 경험을
-            최우선으로 생각하는 인터페이스를 만드는 것에 열정을 가지고 있습니다.
-            HTML, CSS, JavaScript를 비롯한 다양한 프론트엔드 기술 스택을
-            학습하고 프로젝트에 적용해 왔습니다. React 프레임워크를 사용해본
-            경험이 있으며, 사용자 친화적인 웹 애플리케이션을 개발하는 데 자신이
-            있습니다. 항상 배우고 성장하는 자세로 임하며, 팀의 목표를 달성하는
-            데 기여할 수 있는 개발자가 되고 싶습니다. 감사합니다.
+            안녕하세요, 지원자 김은솔입니다. 사용자 경험을 최우선으로 생각하는
+            인터페이스를 만드는 것에 열정을 가지고 있습니다. HTML, CSS,
+            JavaScript를 비롯한 다양한 프론트엔드 기술 스택을 학습하고 Figma와
+            포토샵, 일러스트 등의 디자인 툴을 다루고있습니다. React 프레임워크를
+            사용해본 경험이 있으며, 사용자 친화적인 디자인을 만들고 싶습니다.
+            항상 배우고 성장하는 자세로 임하며, 팀의 목표를 달성하는 데 기여할
+            수 있는 사원이 되고싶습니다. 감사합니다.
           </p>
           <div>
             <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>
